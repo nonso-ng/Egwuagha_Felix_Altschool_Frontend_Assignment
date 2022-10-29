@@ -29,7 +29,7 @@ function App() {
 
   const [data, setData] = useState([]);
 
-  const { isLoading, error, fetchRequest } = useGet();
+  const { isLoading, fetchRequest } = useGet();
 
   useEffect(() => {
     const getData = (data) => {
